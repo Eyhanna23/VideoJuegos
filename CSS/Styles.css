@@ -1,0 +1,185 @@
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+iframe {
+    justify-content: center;
+}
+
+th {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+td {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #222;
+}
+
+
+.link-white{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none; /* Esto elimina el subrayado por defecto en los enlaces */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link-white:hover {
+    color: rgb(20, 107, 189); /* Cambia el color del enlace a azul cuando se pasa el cursor sobre él */
+}
+
+.link-white {
+    font-size: 28px; /* Tamaño de letra deseado */
+}
+
+.list-right {
+    margin-left: auto; /* Mueve la lista hacia la derecha tanto como sea posible */
+}
+
+.list-right li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+}
+
+.list-right ul {
+    padding: 0; /* Elimina el padding predeterminado de la lista */
+}
+
+.list-right li {
+    margin-right: 5px; /* Añade un margen de 2px a la derecha de cada elemento <li> */
+    display: inline; /* Muestra los elementos de la lista en línea */
+}
+
+.container2 {
+    padding: 100px;
+    color: white;
+}
+
+.container4 {
+    width: 80%; /* Ancho del contenedor interno */
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #d7ebd9;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Ajusta el padding según sea necesario */
+  }
+  
+  .container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .link-brown {
+    color: #3e2723; /* Blanco para el color del texto */
+    /* Otros estilos */
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .form-inline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+
+.navbar {
+    background-color: #222;
+    padding: 5px 0; /* Reducir el relleno arriba y abajo */
+}
+
+.nav-list li {
+    margin-right: 10px; /* Reducir el espacio entre los elementos de la lista */
+}
+
+.link-brown {
+    font-size: 16px; /* Reducir el tamaño de la fuente del texto */
+}
+
+
+.link-brown {
+    color: #ddd; /* Cambia el color del texto a un tono grisáceo blanco */
+}
+
+.link-brown:hover {
+    color: #fff; /* Cambia el color del texto a blanco al pasar el cursor */
+}
+
+.form-control {
+    background-color: #333; /* Cambia el color de fondo del campo de búsqueda a un tono oscuro */
+    color: #ddd; /* Cambia el color del texto del campo de búsqueda a un tono grisáceo blanco */
+}
+
+.btn {
+    background-color: #795548; /* Mantiene el color de fondo del botón */
+    color: #ddd; /* Cambia el color del texto del botón a un tono grisáceo blanco */
+}
+
+.btn:hover {
+    background-color: #6d4c41; /* Cambia el color de fondo del botón al pasar el cursor */
+}

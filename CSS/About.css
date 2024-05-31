@@ -1,0 +1,31 @@
+
+.About {
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tu diseño */
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+.About2 {
+    background-color: #094e5f83;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px; /* Ajusta la altura según tu diseño */
+    width: 300px;
+}
+
+.About img {
+    padding: 10px;
+    width: 90%; 
+    height: auto; 
+    border-radius: 5px;
+}

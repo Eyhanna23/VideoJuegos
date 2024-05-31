@@ -1,0 +1,74 @@
+body{
+  background-color: black;
+}
+
+.background-container {
+  position: relative; /* Establece el contexto de posición */
+  display: flex;
+  height: 100vh; /* Ajusta la altura al 100% del viewport */
+}
+
+.background-image {
+  flex: 1; /* Distribuye el espacio disponible entre los elementos */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+  background-position: center; /* Centra la imagen en el div */
+}
+
+
+#background1 {
+  background-image: url('../IMAGENES/re2.jpg'); /* Ruta de la primera imagen */
+}
+
+#background2 {
+  background-image: url('../IMAGENES/re3.jpg'); /* Ruta de la segunda imagen */
+}
+
+#background3 {
+  background-image: url('../IMAGENES/re4.jpg'); /* Ruta de la tercera imagen */
+}
+
+.background-container img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.4); /* Escala la imagen al 40% de su tamaño original */
+}
+
+.video-thumbnail {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Asegura que los videos estén por encima de las imágenes de fondo */
+}
+
+.video-thumbnail {
+  width: 600px; /* Ancho del contenedor del video */
+  height: 400px; /* Alto del contenedor del video */
+  margin: 20px;
+}
+
+.video-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video-thumbnail iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.neon-text {
+  position: absolute;
+  bottom: 90px; /* Ajusta la posición vertical según sea necesario */
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #00f, 0 0 70px #00f, 0 0 80px #00f, 0 0 100px #00f, 0 0 150px #00f;
+}
